@@ -1,9 +1,11 @@
 # Práticas de Design Patterns
 Projeto de práticas de design patterns no Java.
-<br>![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
+<br>![Static Badge](https://img.shields.io/badge/Status-Em_Desenvolvimento-green?logo=java)
 
 ## Tecnologias utilizadas
-a inserir...
+![Static Badge](https://img.shields.io/badge/Java-11-green?logo=java)
+
 
 ### Padrões utilizados
 - Strategy
