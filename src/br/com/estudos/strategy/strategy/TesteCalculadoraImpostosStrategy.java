@@ -1,18 +1,18 @@
-package br.com.estudos.strategy;
+package br.com.estudos.strategy.strategy;
 
-import br.com.estudos.strategy.calculadora.CalculadoraImposto;
-import br.com.estudos.strategy.imposto.Icms;
-import br.com.estudos.strategy.imposto.Ipi;
-import br.com.estudos.strategy.imposto.Irpf;
-import br.com.estudos.strategy.imposto.Iss;
-import br.com.estudos.strategy.orcamento.Orcamento;
+import br.com.estudos.strategy.strategy.calculadora.CalculadoraImposto;
+import br.com.estudos.strategy.strategy.imposto.Icms;
+import br.com.estudos.strategy.strategy.imposto.Ipi;
+import br.com.estudos.strategy.strategy.imposto.Irpf;
+import br.com.estudos.strategy.strategy.imposto.Iss;
+import br.com.estudos.strategy.strategy.orcamento.Orcamento;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class ApplicationImpostos {
+public class TesteCalculadoraImpostosStrategy {
 
     public static void main(String[] args) {
         Orcamento orcamento = new Orcamento(new BigDecimal("1000"));

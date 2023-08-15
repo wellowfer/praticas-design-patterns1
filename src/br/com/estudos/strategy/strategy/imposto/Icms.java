@@ -1,6 +1,6 @@
-package br.com.estudos.strategy.imposto;
+package br.com.estudos.strategy.strategy.imposto;
 
-import br.com.estudos.strategy.orcamento.Orcamento;
+import br.com.estudos.strategy.strategy.orcamento.Orcamento;
 
 import java.math.BigDecimal;
 

@@ -1,0 +1,21 @@
+package br.com.estudos.strategy.chainofresponsibility;
+
+import br.com.estudos.strategy.chainofresponsibility.calculadora.CalculadoraDeDescontos;
+import br.com.estudos.strategy.chainofresponsibility.orcamento.Orcamento;
+
+import java.math.BigDecimal;
+
+public class TesteCalculadoraDeDescontosCor {
+
+    public static void main(String[] args) {
+
+        Orcamento orcamento = new Orcamento(new BigDecimal("1200"), 5L);
+        Orcamento orcamento2 = new Orcamento(new BigDecimal("600"), 6L);
+        Orcamento orcamento3 = new Orcamento(new BigDecimal("150"), 2L);
+        CalculadoraDeDescontos calculadoraDeDescontos = new CalculadoraDeDescontos();
+        System.out.println("Desconto esperado de 10% em cima do: R$ " + orcamento.getValor() + " Desconto aplicado: " + calculadoraDeDescontos.calcular(orcamento));
+        System.out.println("Desconto esperado de 5% em cima do: R$ " + orcamento2.getValor() + " Desconto aplicado: " + calculadoraDeDescontos.calcular(orcamento2));
+        System.out.println("Desconto esperado de 0% em cima do: R$ " + orcamento3.getValor() + " Desconto aplicado: " + calculadoraDeDescontos.calcular(orcamento3));
+
+    }
+}
