@@ -1,4 +1,4 @@
-package br.com.estudos.strategy.chainofresponsibility.orcamento;
+package br.com.estudos.chainofresponsibility.orcamento;
 
 import java.math.BigDecimal;
 

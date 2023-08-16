@@ -1,7 +1,7 @@
-package br.com.estudos.strategy.strategy.calculadora;
+package br.com.estudos.strategy.calculadora;
 
-import br.com.estudos.strategy.strategy.imposto.Imposto;
-import br.com.estudos.strategy.strategy.orcamento.Orcamento;
+import br.com.estudos.strategy.imposto.Imposto;
+import br.com.estudos.strategy.orcamento.Orcamento;
 
 import java.math.BigDecimal;
 
